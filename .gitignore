@@ -1,0 +1,28 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# IDE и редакторы
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Логи и временные файлы
+*.log
+*.bak
+*.swp
+
+# Сгенерированные файлы и директории
+*.egg-info/
+dist/
+build/
+*.egg
+*.egg-info
+*.dist
+
+# Локальные конфигурационные файлы
+.env
