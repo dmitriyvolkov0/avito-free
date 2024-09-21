@@ -15,9 +15,9 @@ from functions import get_data_by_request
 
 app = FastAPI()
 
-@app.get("/")
-async def read_root(request: Request):
-    return RedirectResponse(f"{request.url}docs")
+# @app.get("/")
+# async def read_root(request: Request):
+#     return RedirectResponse(f"{request.url}docs")
 
 @app.get("/name")
 async def get_name():
